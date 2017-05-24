@@ -35,43 +35,59 @@
             <ul class="overlay__content" id="nav"> 
                 <li id="menu1"><a href="index.html"> Home </a></li>
                 <li id="menu2"><a href="about.html"> About Us </a></li>
-                <li id="menu3"><a href="services.html" class="current"> Services </a></li>
+                <li id="menu3"><a href="services.html"> Services </a></li>
                 <li id="menu4"><a href="events.html"> Events </a></li>
-                <li id="menu5"><a href="contact.html"> Contact </a></li>
+                <li id="menu5"><a href="contact.html" class="current"> Contact </a></li>
             </ul>
         </nav>
 
 <!-- End of header -->
   
 <div class="clearfix"></div> <!-- Invisible horizontal rule -->
-    </header>    
+</header>    
 <div id="inner-wrapper"> <!-- Beginning of Inner Wrapper --> 
 
 <!-- Beginning of main body section -->
-<section class="main-index">
-	<div class="index-inner">
-        <h2> Trinity Christian <br>
-             Fellowship Church </h2>
-	</div>
-    
-    <span class="title-underline"></span> <!-- For breaking line -->
-
-<div class="wow fadeInDown" data-wow-delay="1s"> <!-- Beginning animation -->
-    <div class="index-inner2">
-        <h5> A full gospel church </h5>
-    </div>
-</div> <!-- End of animation -->
-<div class="wow fadeInUp"> <!-- Beginning animation -->
-    <div class ="index-mission">
-        <p><i> "The greatest goal that any person, man, woman, boy or girl can have is <strong> SALVATION </strong>." </i></p>
-    </div>
-</div>
-    
+<div class="body-inner">
+<div class="main-body">
+<!-- Beginning of Contact Form -->
+<div class="form-split"> 
+<section class="one-half">
+    <form action="contact.php" method="post">
+        <label>
+            <input type="text" name="name" autocomplete="off">
+        </label><br>
+        <label>
+            <input type="text" name="email" autocomplete="off">
+        </label><br>
+        <label>
+            <textarea name="message" rows="8"></textarea>
+        </label><br>
+        <input type="submit" name="submit" value="Send">
+    </form>
 </section>
+<section class="one-half contact-details">
+    <h3><strong>PHONE </strong></h3>
+        <p > 314-773-2484</p><br>
+    <h3><strong>EMAIL</strong></h3>
+        <p> trinityfgc@aol.com</p><br>
+    <h3><strong>ADDRESS</strong> </h3>
+        <p> St. Louis, Missouri</p>
+</section>
+</div>         
+<!-- End of Contact Form -->
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3117.9397013340567!2d-90.23274748465825!3d38.60425807961689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b47b95bbfae5%3A0xf914450b18c8e5ba!2s2906+Magnolia+Ave%2C+St.+Louis%2C+MO+63118!5e0!3m2!1sen!2sus!4v1495526935892"></iframe>
+    </div>  
+    
+    
+    
+</div>
     
 <div class="clearfix"></div> <!-- Invisible horizontal rule -->
 
 </div> <!-- End of selection for bkgrnd -->
+</div>
 <!-- End of main body section -->
 
 
@@ -91,7 +107,6 @@
                     St. Louis, Missouri </p>
        </section>
 
-       
         <section class="one-third" id="footer-third">
             <h3> Quick Links </h3>
             <br>

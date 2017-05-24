@@ -15,3 +15,5 @@
 });
   
     // End drop menu text fade 
+
+// Form Animations
